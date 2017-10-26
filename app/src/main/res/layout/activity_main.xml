@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/untitled2"
+    tools:context="com.dumbravarobert.android.circsim.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:text="Dumbrava.robert@gmail.com"
+        android:id="@+id/textView"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteY="496dp"
+        tools:layout_editor_absoluteX="202dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/Start"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:text="Start"
+        tools:layout_editor_absoluteY="80dp"
+        tools:layout_editor_absoluteX="117dp"
+        android:layout_above="@+id/Settings"
+        android:layout_alignStart="@+id/Settings"
+        android:layout_marginBottom="50dp" />
+    <Button
+        android:id="@+id/Settings"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:text="Settings"
+        tools:layout_editor_absoluteY="170dp"
+        tools:layout_editor_absoluteX="117dp"
+        android:layout_above="@+id/Credits"
+        android:layout_alignStart="@+id/Credits"
+        android:layout_marginBottom="59dp" />
+
+    <Button
+        android:id="@+id/Credits"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:text="Credits"
+        tools:layout_editor_absoluteY="260dp"
+        tools:layout_editor_absoluteX="117dp"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="136dp" />
+
+
+</RelativeLayout>
